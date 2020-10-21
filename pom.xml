@@ -25,7 +25,7 @@
     <modules>
         <module>core</module>
         <module>util</module>
-        <module>dto</module>
+        <module>model</module>
     </modules>
 
 
