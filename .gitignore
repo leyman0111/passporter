@@ -17,3 +17,6 @@
 mvnw
 mvnw.cmd
 **/target/
+
+#Common
+/templates/
