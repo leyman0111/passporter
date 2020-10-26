@@ -1,4 +1,4 @@
-package ru.fmeter.core.controller;
+package ru.fmeter.back.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

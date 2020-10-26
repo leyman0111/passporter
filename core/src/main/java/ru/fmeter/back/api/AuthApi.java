@@ -1,8 +1,10 @@
-package ru.fmeter.core.api;
+package ru.fmeter.back.api;
 
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import ru.fmeter.core.service.AuthService;
+import ru.fmeter.back.service.AuthService;
+import ru.fmeter.model.User;
 import ru.fmeter.model.dto.AuthResponse;
 import ru.fmeter.util.Path.AuthPath;
 
@@ -16,8 +18,8 @@ public class AuthApi {
     }
 
     @PostMapping(path = AuthPath.LOGIN)
-    public AuthResponse<String> signIn(String login, String password) {
-        return new AuthResponse<>(service.signIn(login, password));
+    public AuthResponse<String> signIn(@RequestBody User user) {
+        return new AuthResponse<>(service.signIn(user.getUsername(), user.getPassword()));
     }
 
     @PostMapping(path = AuthPath.LOGOUT)

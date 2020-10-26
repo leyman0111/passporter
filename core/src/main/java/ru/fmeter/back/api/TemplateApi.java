@@ -1,8 +1,8 @@
-package ru.fmeter.core.api;
+package ru.fmeter.back.api;
 
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-import ru.fmeter.core.service.TemplateService;
+import ru.fmeter.back.service.TemplateService;
 import ru.fmeter.model.Template;
 import ru.fmeter.model.dto.TemplateResponse;
 import ru.fmeter.util.Path.TemplatePath;

@@ -1,11 +1,11 @@
-package ru.fmeter.core.api;
+package ru.fmeter.back.api;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import ru.fmeter.core.service.PassportService;
-import ru.fmeter.core.service.PassportServiceImpl;
+import ru.fmeter.back.service.PassportService;
+import ru.fmeter.back.service.PassportServiceImpl;
 import ru.fmeter.util.Path;
 
 import java.io.File;

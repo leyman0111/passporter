@@ -1,4 +1,4 @@
-package ru.fmeter.core.service;
+package ru.fmeter.back.service;
 
 import java.io.File;
 

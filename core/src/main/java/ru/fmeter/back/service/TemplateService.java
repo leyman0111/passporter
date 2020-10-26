@@ -1,4 +1,4 @@
-package ru.fmeter.core.service;
+package ru.fmeter.back.service;
 
 import org.springframework.web.multipart.MultipartFile;
 import ru.fmeter.model.Template;
